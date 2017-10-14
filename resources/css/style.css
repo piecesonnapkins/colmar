@@ -1,1 +1,22 @@
+html {
+  font-size: 32px;
+  font-family: Helvetica;
+  width: 960px;
+  height: 1.4;
+}
 
+h4 {
+  text-transform: uppercase;
+}
+
+h4 #col {
+  border: 1px solid red;
+  font-weight: bold;
+  color: #41403f;
+}
+
+h4 #acad {
+  border: 1px solid green;
+  font-weight: lighter;
+  color: #b6b5b5;
+}
