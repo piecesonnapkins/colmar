@@ -1,22 +1,45 @@
 html {
-  font-size: 32px;
+  font-size: 16px;
   font-family: Helvetica;
-  width: 960px;
-  height: 1.4;
+  width: 1600px;
+  background-color: grey;
 }
 
-h4 {
+#header-container {
+  z-index: 5;
+  background-color: white;
+  font-size: 1.5rem;
+  height: 4rem;
+  width: 1600px;
+  display: inline-flex;
+  justify-content: flex-start;
   text-transform: uppercase;
+
 }
 
-h4 #col {
+.logo {
+  border: 1px solid pink;
+  height: 1.5rem;
+  display: flex;
+  margin: .75rem 1.5rem;
+}
+
+.logo img {
+  border: 1px solid brown;
+  height: 2rem;
+}
+
+#col {
   border: 1px solid red;
   font-weight: bold;
   color: #41403f;
+  margin-top: .25rem;
 }
 
-h4 #acad {
+#acad {
   border: 1px solid green;
   font-weight: lighter;
   color: #b6b5b5;
+  margin-top: .25rem;
+
 }
