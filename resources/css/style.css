@@ -1,8 +1,8 @@
 html {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-  width: 1600px;
   color: black;
+
 }
 
 a {
@@ -15,14 +15,18 @@ a:hover {
   color: #b6b5b5;
 }
 
+h2 {
+
+}
+/* Header */
+
 #header-container {
   z-index: 5;
   background-color: white;
   height: 4rem;
-  width: 1600px;
+  width: 100%;
   display: inline-flex;
   justify-content: space-between;
-
 
 }
 
@@ -65,6 +69,5 @@ a:hover {
 }
 
 #links{
-
   padding: .25rem;
 }
