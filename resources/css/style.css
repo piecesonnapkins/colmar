@@ -16,8 +16,15 @@ a:hover {
 }
 
 h2 {
-
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: left;
 }
+
+h3 {
+  font-size: 2.25rem;
+}
+
 /* Header */
 
 #header-container {
@@ -70,4 +77,66 @@ h2 {
 
 #links{
   padding: .25rem;
+}
+
+/* Main Content Section */
+
+#StartingPoint {
+  background-color: #dadada;
+  color: #41403f;
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+
+
+}
+
+#StartingPoint .BannerImage {
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+#StartingPoint .BannerImage img {
+  max-width: 100%;
+  max-height: auto;
+  background-size: cover;
+}
+
+#StartingPoint .SideBanner {
+  max-width: 40%;
+  max-height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 4.5rem;
+  padding-top: 5%;
+  justify-content: center;
+  vertical-align: middle;
+
+}
+
+#StartingPoint .BannerText {
+  max-width: 100%;
+
+}
+
+#StartingPoint .StartButton {
+  Color: white;
+  Border: 3px solid #41403f;
+  background-color: #41403f;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  text-align: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin: .5rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+#StartingPoint .StartButton:hover {
+  background-color: #44596e;
+  border: 3px solid #44596e;
+  transition: color 1s;
 }
