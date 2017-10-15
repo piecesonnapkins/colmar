@@ -162,9 +162,13 @@ body {
 /* Second Section, Lecture */
 
 #Information {
-  border: 1px solid red;
   display: inline-flex;
   height: 30%
+}
+
+#Information a {
+  color: #25598D;
+  font-weight: bold;
 }
 
 #Information .LeftColumn {
@@ -184,19 +188,21 @@ body {
   padding-left: 1rem;
 }
 
+#Information .RightColumn h4 {
+  padding-top: 2rem;
+}
+
+
 #Information .RightColumn .InfoRow {
-  border: 7px solid orange;
   display: inline-flex;
 }
 
 #Information .RightColumn .InfoRowSacks {
-  border: 7px solid orange;
   display: inline-flex;
   background-color: #dadada;
 }
 
 #Information .RightColumn img {
-  border: 7px solid greeen;
   max-width: 35%;
   padding: 16px;
   object-fit: contain;
