@@ -151,6 +151,7 @@ body {
   padding: .5rem;
   display: flex;
   justify-content: center;
+  object-position: center;
 }
 
 #StartingPoint .StartButton:hover {
@@ -169,6 +170,7 @@ body {
 #Information a {
   color: #25598D;
   font-weight: bold;
+  object-position: center;
 }
 
 #Information .LeftColumn {
@@ -194,6 +196,7 @@ body {
 
 
 #Information .RightColumn .InfoRow {
+
   display: inline-flex;
 }
 
@@ -219,6 +222,18 @@ body {
 
 #Learning {
   border: 1px solid grey;
+}
+
+#Learning h2 {
+  text-align: center;
+}
+
+#Learning .ClassBox img {
+  height: 50%;
+}
+
+#Learning .ClassBox {
+  border: 1px solid orange;
 }
 
 /* Thesis with Video */
