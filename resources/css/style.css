@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-  color: black;
+  color: #41403f;
 
 }
 
@@ -23,6 +23,7 @@ h1 {
 
 h2 {
   font-size: 3rem;
+  font-weight: 900;
 }
 
 h3 {
@@ -35,6 +36,11 @@ h4 {
 
 h5 {
   font-size: .75rem;
+}
+
+p {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 /* Header */
@@ -159,6 +165,8 @@ h5 {
 
 #Information .LeftColumn {
   max-width: 60%;
+  padding: 2rem 1.5rem;
+
 }
 
 #Information .LeftColumn img {
@@ -167,7 +175,27 @@ h5 {
 
 #Information .RightColumn {
   max-width: 40%;
+  display: column;
+  padding-left: 1rem;
 }
+
+#Information .RightColumn .InfoRow {
+  border: 7px solid orange;
+  display: inline-flex;
+}
+
+#Information .RightColumn img {
+  border: 7px solid greeen;
+  max-width: 35%;
+  padding: 16px;
+
+}
+
+#Information .RightColumn .InfoBox {
+  border: 7px solid black;
+  max-width: 65%;
+}
+
 
 /* Learning and class section */
 
