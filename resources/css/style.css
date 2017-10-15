@@ -202,7 +202,6 @@ body {
 
 
 #Information .RightColumn .InfoRow {
-
   display: inline-flex;
 }
 
@@ -227,7 +226,7 @@ body {
 /* Learning and class section */
 
 #Learning {
-  border: 1px solid grey;
+
   background-color: #dadada;
   padding: 2rem 4.5rem;
 
@@ -237,13 +236,12 @@ body {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 1rem;
-  padding-left: 1rem;
-  padding-bottom: 1.5rem;
+
 }
 
-#Learning h2 {
+#Learning h2,h4 {
   text-align: center;
+
 }
 
 
@@ -253,10 +251,10 @@ body {
 }
 
 #Learning .Courses .ClassBox {
-  border: 1px solid orange;
   background-color: white;
   width: 30%;
   margin-bottom: 2rem;
+  padding: .5rem;
 
 }
 
@@ -264,26 +262,46 @@ body {
 #Thesis {
   border: 1px solid purple;
   display: inline-flex;
+  height: 30%;
+  padding-bottom: 2rem;
 }
 
 #Thesis .ThesisBox {
   border: 1px solid green;
   max-width: 60%;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  direction: flex-container;
+  flex-direction: column;
 }
 
-#Thesis .ThisBox .video {
-  max-width: 400px;
+#Thesis .ThesisBox .ThesisContent {
+  border: 1px solid black;
+
 }
 
 
 #Thesis .ThesisRt {
   max-width: 40%;
+  max-height: 100%;
+  padding-left: 1.5rem;
+  padding-right: 4.5rem;
+  padding-top: 5%;
+  justify-content: center;
+  vertical-align: middle;
 }
 
-#Thesis .InfoBox{
+#Thesis .ThesisRt .InfoBox{
   border: 1px solid pink;
+  display: inline-flex;
+  object-position: right;
 }
+
 /* Footer */
 footer {
   border: 1px solid yellow;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.5rem;
 }
