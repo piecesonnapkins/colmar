@@ -263,6 +263,25 @@ body {
 /* Thesis with Video */
 #Thesis {
   border: 1px solid purple;
+  display: inline-flex;
+}
+
+#Thesis .ThesisBox {
+  border: 1px solid green;
+  max-width: 60%;
+}
+
+#Thesis .ThisBox .video {
+  max-width: 400px;
+}
+
+
+#Thesis .ThesisRt {
+  max-width: 40%;
+}
+
+#Thesis .InfoBox{
+  border: 1px solid pink;
 }
 /* Footer */
 footer {
