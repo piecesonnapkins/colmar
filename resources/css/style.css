@@ -2,6 +2,7 @@ html {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   color: #41403f;
+  width: 1600px;
 
 }
 
@@ -260,14 +261,12 @@ body {
 
 /* Thesis with Video */
 #Thesis {
-  border: 1px solid purple;
   display: inline-flex;
   height: 30%;
   padding-bottom: 2rem;
 }
 
 #Thesis .ThesisBox {
-  border: 1px solid green;
   max-width: 60%;
   padding: 2rem 1.5rem;
   text-align: center;
@@ -275,31 +274,45 @@ body {
   flex-direction: column;
 }
 
-#Thesis .ThesisBox .ThesisContent {
-  border: 1px solid black;
-
+#Thesis .ThesisBox.Video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
 }
-
 
 #Thesis .ThesisRt {
   max-width: 40%;
-  max-height: 100%;
-  padding-left: 1.5rem;
-  padding-right: 4.5rem;
-  padding-top: 5%;
-  justify-content: center;
-  vertical-align: middle;
+  display: column;
+  padding-top: 10%;
 }
 
 #Thesis .ThesisRt .InfoBox{
-  border: 1px solid pink;
   display: inline-flex;
-  object-position: right;
+  justify-content: center;
+}
+
+#Thesis .ThesisRt .InfoBox .ThesisContent {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#Thesis .ThesisRt .InfoBox .ThesisContent h5{
+  text-align: center;
+}
+
+#Thesis .ThesisRt img {
+  max-width: 50%;
+  object-fit: contain;
+  padding: 1rem;
 }
 
 /* Footer */
 footer {
-  border: 1px solid yellow;
   display: inline-flex;
   justify-content: space-between;
   width: 100%;
