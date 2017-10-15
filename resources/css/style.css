@@ -35,6 +35,11 @@ h4 {
 }
 
 h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h6 {
   font-size: .75rem;
 }
 
@@ -164,7 +169,8 @@ body {
 
 #Information {
   display: inline-flex;
-  height: 30%
+  height: 30%;
+  padding-bottom: 2rem;
 }
 
 #Information a {
@@ -222,18 +228,36 @@ body {
 
 #Learning {
   border: 1px solid grey;
+  background-color: #dadada;
+  padding: 2rem 4.5rem;
+
+}
+
+#Learning .Courses{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 #Learning h2 {
   text-align: center;
 }
 
-#Learning .ClassBox img {
-  height: 50%;
+
+#Learning .Courses .ClassBox img {
+  width: 100%;
+
 }
 
-#Learning .ClassBox {
+#Learning .Courses .ClassBox {
   border: 1px solid orange;
+  background-color: white;
+  width: 30%;
+  margin-bottom: 2rem;
+
 }
 
 /* Thesis with Video */
