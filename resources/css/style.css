@@ -39,8 +39,10 @@ h5 {
 }
 
 p {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+}
+
+body {
+  height: 100%;
 }
 
 /* Header */
@@ -106,7 +108,7 @@ p {
   color: #41403f;
   display: flex;
   max-width: 100%;
-  height: auto;
+  height: 30%;
   justify-content: center;
 }
 
@@ -119,6 +121,7 @@ p {
   max-width: 100%;
   max-height: auto;
   background-size: cover;
+  object-fit: contain;
 }
 
 #StartingPoint .SideBanner {
@@ -161,6 +164,7 @@ p {
 #Information {
   border: 1px solid red;
   display: inline-flex;
+  height: 30%
 }
 
 #Information .LeftColumn {
@@ -171,6 +175,7 @@ p {
 
 #Information .LeftColumn img {
   max-width: 100%;
+  object-fit: contain;
 }
 
 #Information .RightColumn {
@@ -184,16 +189,23 @@ p {
   display: inline-flex;
 }
 
+#Information .RightColumn .InfoRowSacks {
+  border: 7px solid orange;
+  display: inline-flex;
+  background-color: #dadada;
+}
+
 #Information .RightColumn img {
   border: 7px solid greeen;
   max-width: 35%;
   padding: 16px;
+  object-fit: contain;
 
 }
 
 #Information .RightColumn .InfoBox {
-  border: 7px solid black;
   max-width: 65%;
+  object-position: right;
 }
 
 
