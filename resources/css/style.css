@@ -93,6 +93,8 @@ h5 {
 
 /* Main Content Section */
 
+/* Upper Banner */
+
 #StartingPoint {
   background-color: #dadada;
   color: #41403f;
@@ -100,8 +102,6 @@ h5 {
   max-width: 100%;
   height: auto;
   justify-content: center;
-
-
 }
 
 #StartingPoint .BannerImage {
@@ -123,12 +123,10 @@ h5 {
   padding-top: 5%;
   justify-content: center;
   vertical-align: middle;
-
 }
 
 #StartingPoint .BannerText {
   max-width: 100%;
-
 }
 
 #StartingPoint .StartButton {
@@ -144,7 +142,6 @@ h5 {
   padding: .5rem;
   display: flex;
   justify-content: center;
-
 }
 
 #StartingPoint .StartButton:hover {
@@ -153,18 +150,36 @@ h5 {
   transition: color 1s;
 }
 
-#Lecture {
+/* Second Section, Lecture */
+
+#Information {
   border: 1px solid red;
+  display: inline-flex;
 }
+
+#Information .LeftColumn {
+  max-width: 60%;
+}
+
+#Information .LeftColumn img {
+  max-width: 100%;
+}
+
+#Information .RightColumn {
+  max-width: 40%;
+}
+
+/* Learning and class section */
 
 #Learning {
   border: 1px solid grey;
 }
 
+/* Thesis with Video */
 #Thesis {
   border: 1px solid purple;
 }
-
+/* Footer */
 footer {
   border: 1px solid yellow;
 }
